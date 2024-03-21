@@ -8,14 +8,40 @@
 </head>
 <body style="margin: auto;">
     <div class="container">
-    <div class="tela">
-        <h1>Login</h1>
-        <input class="texto" type="text" placeholder="nome">
-        <br><br>
-            <input class="texto" type="password" placeholder="senha">
+        <div class="tela">
+            <div>
+                <h1>Login</h1>
+            </div>
+            
+            <input class="texto" type="text" placeholder="nome" id="login">
+
             <br><br>
-            <button class="botao">Enviar</button>
+
+            <input class="texto" type="password" placeholder="senha" id="senha">
+            
+            <br><br>
+
+            <button class="botao" onclick="logar()">Enviar</button>
+        </div>
     </div>
-</div>
+
+    <script>
+
+        function logar(){
+
+        var login = document.getElementById("login").value;
+
+        var senha = document.getElementById("senha").value;
+
+        if(login == "admin" && senha== "admin"){
+            alert("sucesso");
+        }
+
+        }
+
+    </script>
 </body>
 </html>
+
+            
+       
