@@ -21,7 +21,7 @@
             
             <br><br>
 
-            <button class="botao" onclick="logar()">Enviar</button>
+            <button class="botao" onclick="logar(); return false" >Enviar</button>
         </div>
     </div>
 
@@ -35,6 +35,9 @@
 
         if(login == "admin" && senha== "admin"){
             alert("sucesso");
+            location.href = "home.html";
+        }else{
+            alert("usuário ou senha incorretos");
         }
 
         }
