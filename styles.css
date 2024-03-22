@@ -61,7 +61,11 @@ nav {
     height: 8vh;
 }
 main {
+<<<<<<< HEAD
     background: url("./img/Horizonte.jpeg") no-repeat center center;
+=======
+    background: url("./img/Horizonte.jpg") no-repeat center center;
+>>>>>>> 11d5bdd2b746eb8b2bf9886610f53a4e4b9ae973
     background-size: cover;
     height: 92vh;
 }
@@ -72,6 +76,7 @@ main {
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+<<<<<<< HEAD
 }
 .mobile-menu {
     display: none;
@@ -112,4 +117,6 @@ main {
 }
 .nav-list.active {
 transform: translateX(0);
+=======
+>>>>>>> 11d5bdd2b746eb8b2bf9886610f53a4e4b9ae973
 }
